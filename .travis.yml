@@ -4,5 +4,10 @@ node_js:
 cache:
   directories:
     - "node_modules"
+deploy:
+  provider: heroku
+  api_key:
+    secure: "d49b04e2-ce1e-4e3f-bec1-af68dc540c4b"
 script:
   - npm run test
+  - npm run start
