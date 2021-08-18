@@ -1,1 +1,1 @@
-Teste dashboard em React
+Test dashboard / React
